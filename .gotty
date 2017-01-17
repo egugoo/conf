@@ -1,0 +1,10 @@
+permit_write = true
+port = "3300"
+preferences {
+  environment = {"TERM" = "xterm-256color"}
+	enable_bold = false
+  font_smoothing = "antialiased"
+  font_family = "'Source Code Pro', 'DejaVu Sans Mono', 'Everson Mono', FreeMono, 'Menlo', 'Terminal', monospace"
+  user_css = "https://fonts.googleapis.com/css?family=Source+Code+Pro"
+}
+
