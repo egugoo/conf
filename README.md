@@ -1,0 +1,2 @@
+# conf
+My terminal configurations.
