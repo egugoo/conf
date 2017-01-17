@@ -11,7 +11,7 @@ hostname="$(hostname)"
 if [ "$hostname" = 'egg-cubie' ]
 then
   # cubie
-	source .base16-default-dark.sh
+	source ~/.base16-default-dark.sh
   alias ls='ls --color -F'
   alias ll='ls -al'
   alias la='ls -A'
