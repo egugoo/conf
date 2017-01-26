@@ -11,6 +11,7 @@ $ git init
 $ git remote add origin https://github.com/egugoo/conf.git
 $ git fetch
 $ git checkout -t origin/master  # -f to override
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 > Create `~/.bash_more` for additional configurations.
