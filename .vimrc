@@ -18,6 +18,7 @@ filetype plugin indent on
 " :so % (reload .vimrc)
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
+Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -30,8 +31,7 @@ call plug#end()
 set laststatus=2
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|\.(git|hg|svn)$'
 map <C-n> :NERDTreeTabsToggle<CR>
-let g:lightline = {
-  \ 'colorscheme': 'wombat',
-  \ }
+let g:lightline = { 'colorscheme': 'wombat' }
 nmap <C-k> v$<Left>d
+let mapleader = '\'
 
